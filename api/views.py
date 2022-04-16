@@ -11,11 +11,11 @@ from .serializer import WidgetSerializer
 @api_view(['GET'])
 def apiOverview(request):
 	api_urls = {
-		'List':'/Widget-list/',
-		'Detail View':'/Widget-detail/<str:pk>/',
-		'Create':'/Widget-create/',
-		'Update':'/Widget-update/<str:pk>/',
-		'Delete':'/Widget-delete/<str:pk>/',
+		'List':'/widget-list/',
+		'Detail View':'/widget-detail/<str:pk>/',
+		'Create':'/widget-create/',
+		'Update':'/widget-update/<str:pk>/',
+		'Delete':'/widget-delete/<str:pk>/',
 		}
 
 	return Response(api_urls)
