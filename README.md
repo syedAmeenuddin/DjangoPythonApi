@@ -10,3 +10,4 @@ pip install Django==3.0.3
 pip install djangorestframework==3.11.0
 pip install pytz==2019.3
 pip install sqlparse==0.3.0
+git ignored test
