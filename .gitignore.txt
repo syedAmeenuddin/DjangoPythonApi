@@ -1,2 +1,4 @@
 # Visual Studio files
+*.README.md
+
 *.launch.json
